@@ -13,7 +13,7 @@ dotenv.config({ path: "Config.env" });
 
 
 mongoose
-  .connect(process.env.DATABASE, {
+  .connect("mongodb+srv://adityaprakash280102:1m9MtpMfrvdhxO13@cluster0.qarlp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
